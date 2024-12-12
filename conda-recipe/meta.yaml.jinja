@@ -1,5 +1,5 @@
 package:
-  name: {{ PACKAGE_NAME }}
+  name: {{ package_name }}
   version: {{ PLUGIN_VERSION }}
 
 source:
@@ -33,13 +33,13 @@ test:
     - pytest
 
   imports:
-    - {{ PLUGIN_NAME }}
-    - qiime2.plugins.{{ MODULE_NAME }}
+    - {{ plugin_name }}
+    - qiime2.plugins.{{ module_name }}
 
   commands:
-    - py.test --pyargs {{ PLUGIN_NAME }}
+    - py.test --pyargs {{ plugin_name }}
 
 about:
-  home: {{ PROJECT_URLS_HOMEPAGE }}
-  license: {{ PROJECT_LICENSE_TYPE }}
-  license_family: {{ PROJECT_LICENSE_FAMILY }}
+  home: {{ project_urls_homepage }}
+  license: {{ project_license_type }}
+  license_family: {{ project_license_family }}

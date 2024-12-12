@@ -10,7 +10,7 @@ test: all
 	py.test
 
 test-cov: all
-	py.test --cov={{ PLUGIN_NAME }}
+	py.test --cov={{ plugin_name }}
 
 install: all
 	$(PYTHON) -m pip install -v .
