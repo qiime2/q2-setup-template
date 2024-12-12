@@ -1,0 +1,23 @@
+project_name:
+  help: The name of your plugin, dash separated (q2-my-plugin).
+plugin_name:
+  help: The name of your plugin, underscore separated (q2_my_plugin).
+module_name:
+  help: The name of your plugin sans q2_prefix, underscore separated (my_plugin).
+project_author_name:
+  type: str
+  help: The plugin author name(s), comma separated.
+project_author_email:
+  help: The best contact email address for the plugin author(s).
+project_description:
+  help: A short description of the plugin's purpose and functionality.
+project_urls_homepage:
+  help: (If applicable), the plugin's relevant website homepage.
+project_urls_documentation:
+  help: (If applicable), the plugin's relevant user documentation web page.
+project_urls_repository:
+  help: The URL for the plugin's source code.
+project_license_type:
+  help: (If applicable), the type of license used for the plugin.
+project_license_family:
+  help: (If applicable), the relevant family for the plugin's license.
