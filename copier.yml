@@ -13,8 +13,6 @@ project_description:
   help: A short description of the plugin's purpose and functionality.
 project_urls_homepage:
   help: (If applicable), the plugin's relevant website homepage.
-project_urls_documentation:
-  help: (If applicable), the plugin's relevant user documentation web page.
 project_urls_repository:
   help: The URL for the plugin's source code.
 project_license_type:
