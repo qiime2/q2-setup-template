@@ -15,7 +15,3 @@ project_urls_homepage:
   help: (If applicable), the plugin's relevant website homepage.
 project_urls_repository:
   help: The URL for the plugin's source code.
-project_license_type:
-  help: (If applicable), the type of license used for the plugin.
-project_license_family:
-  help: (If applicable), the relevant family for the plugin's license.
