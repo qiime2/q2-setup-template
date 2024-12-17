@@ -1,6 +1,7 @@
 package:
   name: {{ project_name }}
   version: {% raw %}{{ PLUGIN_VERSION }}{% endraw %}
+  foo: bar
 
 source:
   path: ..
@@ -21,7 +22,7 @@ requirements:
     - wheel
 
   run:
-    - python {% raw %}{{ python }}{% endraw %}
+    - python=4.0
 
 test:
   requires:
