@@ -41,6 +41,9 @@ file = "{{ project_name }}/_version.py"
 
 [tool.setuptools]
 include-package-data = true
+scripts = [
+    "{{ plugin_scripts }}"
+]
 
 [tool.setuptools.packages.find]
 where = ["."]
