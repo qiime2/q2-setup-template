@@ -43,7 +43,8 @@ file = "{{ project_name }}/_version.py"
 include-package-data = true
 
 [tool.setuptools.packages.find]
-where = ["{{ plugin_name }}"]
+where = ["."]
+include = ["{{ plugin_name }}/"]
 
 [tool.setuptools.package-data]
 {{ plugin_name }} = ["**/*"]
