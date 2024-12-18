@@ -44,7 +44,7 @@ include-package-data = true
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["{{ plugin_name }}/"]
+include = ["{{ plugin_name }}*"]
 
 [tool.setuptools.package-data]
 {{ plugin_name }} = ["**/*"]
