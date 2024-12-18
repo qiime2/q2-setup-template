@@ -43,7 +43,7 @@ file = "{{ project_name }}/_version.py"
 include-package-data = true
 {%- if plugin_scripts %}
 script-files = [
-    {{ plugin_scripts }}
+    "{{ plugin_scripts }}"
 ]
 {%- endif %}
 
